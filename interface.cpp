@@ -13,9 +13,6 @@ public:
 
 class Concrete1 : public Interface
 {
-private:
-	int myMember;
-
 public:
 
 	void method1();
@@ -34,9 +31,6 @@ void Concrete1::method2()
 
 class Concrete2 : public Interface
 {
-private:
-	int myMember;
-
 public:
 
 	void method1();
